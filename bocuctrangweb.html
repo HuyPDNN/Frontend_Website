@@ -6,9 +6,12 @@
         <link type="text/css" rel="stylesheet" href="./Css-Duy/Style.css"/>
         <link type="text/css" rel="stylesheet" href="./Css-Duy/Media-Css.css">
         <meta name="viewpost" content="width=device-width , initial-scale=1">
+
+        <script type="text/javascript" src="./javascript-Duy/code-js.js"></script>
+       
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
+    <body onload="WelCome()">
         
         <div class="header">
             <h1>máy ảnh đời sống</h1>
@@ -25,10 +28,10 @@
                 <li><a href="#">CSS</a></li>
                 <li><a href="#">JAVASCRIFT</a></li>
                 <li><a href="#">BOOTSTRAP</a></li>
-                <li>
-                    <input type="search" placeholder="Search......." >
+                <li >
+                    <input type="search" placeholder="Search......."  id="Sa">
                 </li>
-                <li><input type="button" onclick="hello()" value="Tìm Kiếm" ></li>
+                <li><input type="button"  value="Tìm Kiếm" id="BT"></li>
                 <!-- <li><button onclick='click()' style="width: 60px; height: 20px;"> bat dau </button> </li> -->
                 
             </ul>
@@ -38,7 +41,7 @@
         <div class="left" >
                 <ul>
                     <li id="khuyenmai">Khuyến Mãi</li>
-                    <li>Máy ảnh ống kính</li>
+                    <li id="ma">Máy ảnh ống kính</li>
                     <li>Phụ kiện máy ảnh</li>
                     <li>Macbook - Iphone - Ipad</li>
                     <li>LapTop - Surface - Wacom</li>
@@ -81,7 +84,6 @@
         <div class="footer">
             <p>đây là footer</p>
         </div>
-        <script type="text/javascript" src="./javascript-Duy/code-js.js"></script>
-
+       
     </body>
 </html>

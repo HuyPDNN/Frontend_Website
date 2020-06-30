@@ -43,6 +43,16 @@ body{
     top:150px;
     z-index: 10000;
 }
+#Menu{
+    background: linear-gradient(white,rgb(216, 245, 250),white);
+    height: 50px;
+    width: 100%;
+    margin-top:10px;
+    /* position: fixed;  */
+    top:150px;
+    z-index: 10000;
+}
+
 
 .menu ul{
     list-style-type: none;
@@ -91,6 +101,7 @@ body{
 .menu input[type=search]:hover{
     background:linear-gradient(rgb(211, 211, 253),white)
 }
+
 .left{
     background:linear-gradient(white,rgb(241, 252, 252),white);
     width: 20%;
