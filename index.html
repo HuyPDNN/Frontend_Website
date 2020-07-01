@@ -2,50 +2,79 @@
 <html>
     <head>
         <title>Tranning HTML</title>
+        <link type="text/css" rel="stylesheet" href="./css/style.css"/>
+        <script type="text/javascript" src="./javascript/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="./javascript/event.js"></script>
+        <script type="text/javascript" src="./javascript/DOM.js"></script>
+        
     </head>
-    <body>
-        <div>
-            <center><h1>Lập trình WEBSITE- Phần HTML</h1></center>
-            <hr/>
+    <body onload="WelcomWhenFinishLoad()">
+        <div id="hd" class="header">
+            <div class="logo">
+                <h1>Lập trình WEBSITE</h1>
+                <h3>HTML-CSS-JAVASCRIPT</h3>
+            </div>
+                
+            <div class="search">
+                <input id="inputtext" value="HELLO" type="text" placeholder="Bạn muốn tìm?..."/>
+                <input id="inputSearch" type="submit"  />
+            </div>
+            <div>
+                <a href="#">Đăng nhập</a>
+                <a href="#">Đăng kí</a>
+            </div>
+                
         </div>
-        <div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Diễn đàn</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Hỏi ol</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                
+              </ul>
+        </div>
+        <div class="left">
+            <div >
+                <h3 ><a href="the.html">1. Thẻ trong HTML</a></h3>  
+            </div>
+            <div>
+                <h3><a href="thenoidung.html">2. Thẻ tạo nội dung danh sách</a></h3>
+            </div>
+            <div>
+                <h3><a href="duongdan.html">3. Đường dẫn tuyệt đối, tương đối</a></h3>
+            </div>
+            <div>
+                <h3><a href="map.html">4. Bản đồ siêu liên kết trên hình ảnh</a></h3>
+            </div>
+            <div>
+                <h3> <a href="table.html">5. Table(hàng và cột)</a></h3>   
+            </div>
+            <div>
+                <h3><a href="video.html">6. Chèn Video/Âm thanh</a></h3>                
+            </div>
+            <div>
+                <h3><a href="form.html">7. Các thẻ trình bày biễu mẫu(FORM)</a></h3>                
+            </div>
+            <div>
+                <h3><a href="frame.html">8. Frame</a></h3>
+               
+                
+            </div>
+            <div>
+                <h3><a href="demo-jquery.html">9. Jquery</a></h3>
+               
+                
+            </div>
+        </div>
+        <div class="content">
             
-            <h3>1. Thẻ trong HTML</h3>
-            <a href="the.html">Chuyển trang để xem các thẻ cơ bản của HTML</a>
         </div>
-        <div>
-            <h3>2. Thẻ tạo nội dung danh sách</h3>
-            <a href="thenoidung.html">Chuyển trang để xem thẻ nội dung danh sách</a>
+        <div class="footer">
+            Đây là footer
         </div>
-        <div>
-            <h3>3. Đường dẫn tuyệt đối, tương đối</h3>
-            <a href="duongdan.html">Chuyển trang để xem chi tieesrt đường dẫn</a>
-        </div>
-        <div>
-            <h3>4. Bản đồ siêu liên kết trên hình ảnh</h3>
-            <a href="map.html">Chuyển trang để xem map</a>
-            
-        </div>
-        <div>
-            <h3>5. Table(hàng và cột)</h3>
-            <a href="table.html">Chuyển trang để xem table</a>
-            
-        </div>
-        <div>
-            <h3>6. Chèn Video/Âm thanh</h3>
-            <a href="video.html">Chuyển trang để xem video</a>
-            
-        </div>
-        <div>
-            <h3>7. Các thẻ trình bày biễu mẫu(FORM)</h3>
-            <a href="form.html">Chuyển trang để xem form</a>
-            
-        </div>
-        <div>
-            <h3>8. Frame</h3>
-            <a href="frame.html">Chuyển trang để xem frame</a>
-            
-        </div>
+        
 
     </body>
 </html>

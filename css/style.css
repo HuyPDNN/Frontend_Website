@@ -1,0 +1,120 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+    width: 100%;
+    height: 1000px;
+    padding: 0%;
+}
+#hd{
+    background-color:hsl(205, 100%, 35%);
+    color: white;
+    padding: 30px 30px;
+    height: 100px;
+}
+
+.header div{
+    float: left;
+
+}
+.header .logo{
+    margin-left: 50px;
+    text-align: center;
+}
+
+
+.header div #inputtext{
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 350px;
+    height: 30px;
+}
+.header div #inputSearch{
+    width: 50px;
+    height: 30px;
+    border-color: hsl(205, 100%, 27%);
+    color: hsl(0, 0%, 77%);
+    font-size: 13px;
+    border-radius: 5px;
+    border: solid;
+}
+.menu{
+    background-color:rgb(154, 154, 240);
+    margin: 1px 5% 1px 5%;
+    height: 50px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: -5px;
+  }
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+.menu a:hover{
+    background-color: #f1f1f1;
+    color: #58257b;
+}
+.menu ul input {
+    margin-left: 200px;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+}
+.menu ul button{
+    height: 20px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.menu ul button:hover{
+    transform: scale(1.5,1.5);
+    
+}
+.left{
+    background-color: green;
+    width: 25%;
+    height: auto;
+    margin: 0% 5% 1% 5%;
+    float: left;
+    
+    position: absolute;
+}
+.left div{
+    padding: 4%;
+    box-shadow: 2px 2px 2px grey;
+}
+.left div h3 a{
+    text-decoration: none;
+}
+.content{
+    background-color: #58257b;
+    width: 64%;
+    height:800px;
+    float: left;
+    margin-left: 31%;
+}
+.footer{
+    background-color: brown;
+    height: 100px;
+    margin-top: 810px;
+    width: 90%;
+    margin-left: 5%;
+    position: absolute;
+
+}
