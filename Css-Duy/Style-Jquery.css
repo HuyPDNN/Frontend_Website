@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+/*css Doi hinh*/
+.doihinh{
+    width: 500px;
+    height: auto;
+    background:blue;
+    float: left;
+
+}
+#Hinh{
+   width: 80px;
+   height: 50px;
+   float: left;
+}
+#anh{
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+    /* position: absolute; */
+}
+.w1{
+    width:100px;
+    height: 100px;
+}
+.w2{
+    width: 200px;
+    height: 200px;
+}
+.w3{
+    width: 300px;
+    height: 300px;
+}
+/*css tổng*/
+.tong{
+    width: 500px;
+    height: 500px;
+    float: left;
+    position: absolute;
+    margin-left: 510px;
+    border:1px dashed black;
+}
+/*css Noi dung*/
+.noidung{
+    margin-left:125px;
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+}
+/*css html_text*/
+.html_text{
+    margin-left: 90px;
+    width: 320px;
+    height: px;
+    border: 1px solid red;
+    float: left;
+}
+.html_text input:hover{
+    background: linear-gradient(white,rgb(209, 209, 248),rgb(240, 240, 191),rgb(250, 210, 210),rgb(240, 204, 210));
+}
+#dochtml{
+    width: 80px;
+    height: 50px;
+    float: left;
+ }
+ #doihtml{
+    width: 80px;
+    height: 50px;
+    float: left;
+ }
+ #doctext{
+    width: 80px;
+    height: 50px;
+    float: left;
+ }
+ #doitext{
+    width: 80px;
+    height: 50px;
+    float: left;
+ }
+ #ndsau{
+    width: 80px;
+    height: 50px;
+    float: left;
+    overflow: auto;
+ } 
+ #nddau{
+    width: 80px;
+    height: 50px;
+    float: left;
+    overflow: auto;
+
+ } 
+ #ndcuoitrong{
+    width: 80px;
+    height: 50px;
+    float: left;
+    overflow: auto;
+
+ } 
+ #nddautrong{
+    width: 80px;
+    height: 50px;
+    float: left;
+    overflow: auto;
+ }
+ #annd{
+    width: 80px;
+    height: 50px;
+    float: left;
+    overflow: auto;
+ }
+ #hiennd{
+    width: 80px;
+    height: 50px;
+    float: left;
+    overflow: auto;
+ }

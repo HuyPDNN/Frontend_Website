@@ -86,7 +86,6 @@ function COKHONG(){
     else{
         alert('Xin mời bạn biến...')
     }
-
 }
 //hiện thông báo điền tên và nhập hoặc không
 function TUOI(){
@@ -106,6 +105,7 @@ function WelCome() {
     // obj.onmouseout=thuchien;
     // obj.onclick=date1; //--->sử dụng đối tượng vừa khai báo
     obj.onclick=hien;
+    // thuchien(); // chạy hướng đối tượng phép tính
     // obj.onclick=doimau;
     // obj.onmouseout=date1;
     // COKHONG();
@@ -137,15 +137,16 @@ function date1(){
 /*---------------------------------*/
 
 //Làm việc với JSON
-var str ='{ "name":"Nguyen Van Duy","Age":"21"}';
+/* var str ='{ "name":"Nguyen Van Duy","Age":"21"}';
 var obj = JSON.parse(str);
-alert("Xin Chao"+" "+obj.name);
+alert("Xin Chao"+" "+obj.name); */
 // obj.name="Nhat Huy";
 // var str_2 = JSON.stringify(obj);
 // alert(str_2);
 /*------------------------------------*/
 
 //truy vấn dữ liệu xâu chuỗi mảng JSON
-var str1 = '{ "name":"Nguyen Van Duy","Age":"21", "Moreinf":[ 123,"ALO",{"ten":"Nhat Huy","tuoi":18}]}';
+/* var str1 = '{ "name":"Nguyen Van Duy","Age":"21", "Moreinf":[ 123,"ALO",{"ten":"Nhat Huy","tuoi":18}]}';
 var obj = JSON.parse(str1);
-alert("Xin chao"+obj.Moreinf[2].ten);
+alert("Xin chao "+obj.Moreinf[2].ten); */
+
