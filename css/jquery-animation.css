@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.btbclick{
+    margin: 20px 0px 20px 20px;
+    padding: 10px 15px;
+    width: 200px;
+    border: 1px solid green;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.btbclick:hover{
+    background-color: aliceblue;
+    color: green;
+}
