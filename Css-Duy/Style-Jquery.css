@@ -9,15 +9,49 @@ body{
     height: auto;
     text-align: center;
 }
-
-
+h1{
+    font-family:cursive;
+    font-style: both;
+}
+/* css làm mờ*/
+#lammo{
+    width: 80px;
+    height: 30px;
+    float: left;
+}
+#lammo:hover{
+    background:linear-gradient(rgb(245, 210, 210),rgb(206, 206, 245));
+}
+/*css trượt*/
+#truot{
+    width: 80px;
+    height: 30px;
+    margin-top: 40px;
+    float: left;
+    display:block;
+    position: absolute;
+}
+#truot:hover{
+    background:linear-gradient(rgb(245, 210, 210),rgb(206, 206, 245));
+}
+#chuyendong{
+    width: 80px;
+    height: 30px;
+    margin-top: 80px;
+    float: left;
+    display:block;
+    position: absolute;
+}
+#chuyendong:hover{
+    background:linear-gradient(rgb(245, 210, 210),rgb(206, 206, 245));
+}
 /*css Doi hinh*/
 .doihinh{
+    display: none;
     width: 500px;
     height: auto;
     background:blue;
     float: left;
-
 }
 #Hinh{
    width: 80px;
@@ -30,6 +64,7 @@ body{
     float: left;
     /* position: absolute; */
 }
+/*chuyển đổi class*/
 .w1{
     width:100px;
     height: 100px;
@@ -44,25 +79,26 @@ body{
 }
 /*css tổng*/
 .tong{
+    display: none;
     width: 500px;
-    height: 500px;
+    height: auto;
     float: left;
     position: absolute;
-    margin-left: 510px;
+    margin-left: 590px;
     border:1px dashed black;
 }
 /*css Noi dung*/
 .noidung{
     margin-left:125px;
     width: 250px;
-    height: 200px;
+    height: 300px;
     border: 1px solid black;
 }
 /*css html_text*/
 .html_text{
     margin-left: 90px;
     width: 320px;
-    height: px;
+    height: auto;
     border: 1px solid red;
     float: left;
 }

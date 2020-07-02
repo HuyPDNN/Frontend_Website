@@ -1,3 +1,4 @@
+// $(document).holdReady(true/false);
 //chờ tài liệu tải xong(giống onload)
 $(document).ready(function () {
     //lệnh trong này chỉ chạy khi tài liệu tải xong
@@ -44,6 +45,18 @@ $(document).ready(function () {
     //JQuery hiện nội dung
     var hiennd = document.getElementById('hiennd');
     hiennd.onclick=hien;
+
+    //JQuery hiệu ứng làm hiện và ẩn mờ dần
+    var hienmo = document.getElementById('lammo');
+    hienmo.onclick=lammo;
+
+    //JQuery hiệu trượt slide
+    var truot = document.getElementById('truot');
+    truot.onclick=truotslide;
+
+    //JQuery hiệu ứng chuyển động Animation
+    var Chuyendong = document.getElementById('chuyendong');
+    Chuyendong.onclick=chuyendong;
 
 });
 
@@ -131,8 +144,32 @@ function an(){
 }
 function hien(){
     var hiennd = document.getElementById('hiennd');
-    hiennd = $('b').show();
+    hiennd = $('b').show(1000);
 }
-
-
-
+//JQuery hiệu ứng làm hiện và ẩn mờ dần
+var kick = 1;
+function lammo(){
+    if(kick==1){
+        $('.doihinh').fadeIn('slow');
+        $('.tong').fadeIn(1000);
+        kick = 2;
+    }
+    else {
+        $('.doihinh').fadeOut('slow');
+        $('.tong').fadeOut(1000);
+        kick = 1;
+    }
+}
+//JQuery hiệu ứng trượt lên và xuống (làm gọp)
+function truotslide(){
+    $('.doihinh').slideToggle('slow');
+    $('.tong').slideToggle('2000');
+}
+//JQuery chuyển động animation 
+function chuyendong(){
+    var w1 = $('.w1');
+    w1.animate({ height: '300px', opacity: '0.4'}, "slow");
+    w1.animate({width: '300px', opacity: '0.8'}, "slow");
+    w1.animate({height: '100px', opacity: '0.4'}, "slow");
+    w1.animate({width: '100px', opacity: '0.8'}, "slow");
+}
