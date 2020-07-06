@@ -112,6 +112,7 @@
 	cursor: default;
 }
 .ui-menu {
+	
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -120,6 +121,7 @@
 }
 .ui-menu .ui-menu {
 	position: absolute;
+	
 }
 .ui-menu .ui-menu-item {
 	margin: 0;
@@ -696,6 +698,7 @@ button.ui-button::-moz-focus-inner {
 	top: 0;
 	left: 0;
 	display: none;
+	
 }
 .ui-selectmenu-menu .ui-menu {
 	overflow: auto;

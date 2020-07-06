@@ -9,9 +9,12 @@ $(document).ready(function () {
 
     //JQuery ngày tháng
     ngay();
-    
+
     //JQuery hiển thị nội dung thu gọn
     thugon();
+
+    //JQuery MENU
+    MENU();
 
 });
 
@@ -27,9 +30,16 @@ function tab() {
 }
 //JQuery Ngày Tháng
 function ngay() {
-     $('#date').datepicker();
+    $('#datetext').datepicker();
 }
-//JQuery hiển thị nội dung thu gọn 
-function thugon(){
-    $( "#accordion" ).accordion();
+
+// //JQuery hiển thị nội dung thu gọn 
+function thugon() {
+    $("#accordion").accordion();
 }
+
+//JQuery Menu{
+function MENU() {
+    $( "#menu" ).menu();
+}
+
