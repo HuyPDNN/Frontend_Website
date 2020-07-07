@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: auto;
+    height: auto;
+}
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #111;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+ }
+ 
+ .demo .large-header {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+ }
+ 
+ .main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #F9F1E9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+ }
+ 
+ .demo .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+ }
+ 
+ .main-title .thin {
+    font-weight: 200;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    .demo .main-title {
+       font-size: 3em;
+    }
+ }
+.container-top{
+    width: auto;
+    /* height: 100px; */
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.container-top span{
+    text-shadow: 0 0 3px #f32307, 0 0 10px #00ff0d;
+    margin-top: 10px;
+}
+.container-content #tabs{
+    margin-left: 25px;
+    float: left;
+    width: 440px;
+    height: 500px;
+    background:linear-gradient(red, green, yellow);
+}
+.container-content #tabs a{
+    background-color: orange;
+    border-radius: 5px;
+
+}
+.container-content #tabs a:hover{
+    background-color: aliceblue;
+    color: orange;
+    font-family: Courier;
+}
+.container-content #dialog title{
+    color: red;
+    border: 1px solid yellow;
+}
+.container-content #dialog :hover{
+    color: pink;
+}
+.accordion{
+    width: 470px;
+    display: block;
+    float: left;
+    position: absolute;
+    margin-left: 485px;
+    background-color: aquamarine;
+}
+.widget{
+    border: 2px solid grey;
+    background-color: pink;
+    margin-top: 1px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 970px;
+    width: 350px;
+    float: left;
+    display: block;
+    position: absolute;
+    height: 170px;
+
+}
+.datepicker{
+    width: 350px;
+    height: 170px;
+    position: absolute;
+    margin-left: 970px;
+    border: 2px solid grey;
+    margin-top: 200px;
+    padding: 5px 5px 5px 5px;
+    float: left;
+}
+#datepicker{
+    width: 350px;
+    height: 170px;
+    position: absolute;
+    margin-left: 970px;
+    border: 2px solid grey;
+    margin-top: 200px;
+    padding: 5px 5px 5px 5px;
+    float: left;
+}
