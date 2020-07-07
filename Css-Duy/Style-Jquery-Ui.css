@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url("https://maupowerpoint.com/wp-content/uploads/2019/07/background-powerpoint-don-gian-3-600x338.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* css tab*/
+#tabs{
+    background: linear-gradient(rgb(247, 202, 202),rgb(183, 247, 183),white);
+    width: 500px;
+    height: auto;
+    /* float: left; */
+    display: block;
+    /* margin-top: 300px; */
+    position: absolute;
+}
+#tabs a{
+    
+    background:linear-gradient(rgb(198, 198, 241),rgb(210, 250, 210),white);
+}
+#tabs a:hover{
+    background: linear-gradient(rgb(253, 253, 191),rgb(144, 144, 228));
+}
+
+/* css date*/
+.date{
+    background: linear-gradient(rgb(248, 248, 166),rgb(204, 204, 240),white);
+    width: auto;
+    height: 100px;
+    float: left;
+    display: block;
+    margin-left: 510px;
+}
+#hienngay{
+    background: linear-gradient(rgb(245, 190, 190),rgb(185, 185, 238),purple);
+    float:left;
+    margin-top:2px;
+    /* padding-top: 100px; */
+    display: block ;
+    position: absolute;
+}
+
+#accordion{
+    width: 500px;
+    float: left;
+    display: block;
+    position: absolute;
+    margin-left: 660px;
+}
+
+/* css MENU */
+.MENU{
+    background:rgb(241, 213, 213);
+    width: 300px;
+    height: 300px;
+    float: left;
+    display: block;
+    position: absolute;
+    margin-top:300px;
+    /* margin-left: 20px; */
+}
+#menu{
+    width:150px;
+    height: auto;
+}
+
+
+  

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./Css-Duy/Style-Jquery-Ui.css">
+    <link rel="stylesheet" type="text/css" href="./javascript-Duy/jquery-ui/jquery-ui-1.12.1/jquery-ui.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./javascript-Duy/jquery-ui/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="./javascript-Duy/JQuery-UI.js"></script>
+</head>
+
+<body>
+    <marquee behavior="alternate" Scrollamount="15">
+        <h1>JQUERY UI</h1>
+    </marquee>
+
+
+
+
+    <!-- ------------------JQuery-UI----------------->
+    <!-- Dialog--thông báo hộp thoại-->
+    <div class="my-dialog" title="Thông Báo">
+        <b>Chào mừng bạn đến với trang web chúng tôi</b>
+    </div>
+    <!-- JQuery Tab-->
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">Bắc Kim Thang</a></li>
+            <li><a href="#tabs-2">Con Cò Be Bé</a></li>
+            <li><a href="#tabs-3">Ca Dao Tục Ngữ</a></li>
+        </ul>
+        <div id="tabs-1">
+            <p>Bắc kiem thang cà lang bí rợ, cột qua kèo là kèo qua cột, chú bán ếch ở làm chi, con le le
+                đánh trống thổi kèn, con bịp bịp thổi tò tí te tò te.
+            </p>
+        </div>
+        <div id="tabs-2">
+            <p>Con cò be bé nó đậu cành tre, đi không hỏi mẹ biết đi đường nào,
+                đi về em hỏi, đi về em chào, miệng em chúm chím mẹ có yêu không nào.
+            </p>
+        </div>
+        <div id="tabs-3">
+            <p>
+                Công cha núi thái sơn<br />
+                Nghĩa mẹ như nước trong nguồn chảy ra<br />
+                Một lòng thờ mẹ kính cha<br />
+                cho tròn chữ hiếu mới là đạo con
+            </p>
+            <br />
+            <p>
+                Cái vòng danh lợi cong cong <br />
+                Kẻ hòng ra khỏi, người mong bước vào<br />
+                Cá trong lờ đỏ hoe con mắt<br />
+                Cá ngoài ngờ lúc lắc muốn vào<br />
+                Tung tăng như cá trong lờ,<br />
+                Trong không ra được, ngoài ngờ là vui<br />
+            </p>
+        </div>
+    </div>
+    <div class='date'>
+        <p>CHỌN NGÀY</p>
+        <input type='text' id='datetext' />
+    </div>
+
+
+    <div id="accordion" class='Accordion'>
+        <h3>Section 1</h3>
+        <div>
+          <p>
+          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+          </p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+          <p>
+          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+          suscipit faucibus urna.
+          </p>
+        </div>
+        <h3>Section 3</h3>
+        <div>
+          <p>
+          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+          </p>
+          <ul>
+            <li>List item one</li>
+            <li>List item two</li>
+            <li>List item three</li>
+          </ul>
+        </div>
+        <h3>Section 4</h3>
+        <div>
+          <p>
+          Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+          et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+          mauris vel est.
+          </p>
+          <p>
+          Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+          inceptos himenaeos.
+          </p>
+        </div>
+      </div>
+
+      <!-- JQuery-UI Menu -->
+      <div class="MENU">
+        <ul id="menu">
+            <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+            <!-- <li><div>Books</div></li> -->
+            <li>Books</li>
+            <li><div>Clothing</div></li>
+            <li><div>Electronics</div>
+              <ul>
+                <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+                <li><div>Car Hifi</div></li>
+                <li><div>Utilities</div></li>
+              </ul>
+            </li>
+            <li><div>Movies</div></li>
+            <li><div>Music</div>
+              <ul>
+                <li><div>Rock</div>
+                  <ul>
+                    <li><div>Alternative</div></li>
+                    <li><div>Classic</div></li>
+                  </ul>
+                </li>
+                <li><div>Jazz</div>
+                  <ul>
+                    <li><div>Freejazz</div></li>
+                    <li><div>Big Band</div></li>
+                    <li><div>Modern</div></li>
+                  </ul>
+                </li>
+                <li><div>Pop</div></li>
+              </ul>
+            </li>
+            <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+          </ul>
+      </div>
+      
+    
+
+</body>
+
+</html>
